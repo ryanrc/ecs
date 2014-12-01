@@ -141,7 +141,7 @@ class SystemManager(object):
     """A container and manager for :class:`ecs.models.System` objects."""
     def __init__(self, entity_manager):
         """:param entity_manager: this manager's entity manager
-        :type entity_manager: :class:`SystemManager`
+        :type entity_manager: :class:`EntityManager`
         """
         self._systems = []
         self._system_types = {}
